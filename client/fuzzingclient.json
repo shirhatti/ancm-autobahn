@@ -1,0 +1,12 @@
+
+{
+  "outdir": "../bin/wstest-report",
+   "servers": [
+      {
+         "url": "ws://127.0.0.1:5000"
+      }
+   ],
+   "cases": ["*"],
+   "exclude-cases": ["12.*", "13.*"],
+   "exclude-agent-cases": {}
+}
